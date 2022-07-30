@@ -1,0 +1,10 @@
+import keyword
+
+keys = ["if", "else", "shubham", "break", "switch", "case", "zhirmile", "lambda"]
+
+for i in range(len(keys)):
+    if keyword.iskeyword(keys[i]):
+        print(keys[i] + " "+"is a python keyword")
+    else:
+        print(keys[i] + " "+ "is not is a python keyword")
+        
